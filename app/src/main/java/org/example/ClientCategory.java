@@ -1,5 +1,5 @@
 package org.example;
 
-public enum CustomerType {
+public enum ClientCategory {
     REGULAR, VIP
 }

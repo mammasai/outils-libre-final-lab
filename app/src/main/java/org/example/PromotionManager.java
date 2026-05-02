@@ -1,10 +1,10 @@
 package org.example;
 
-public class DiscountService {
-    public double applyDiscount(double subtotal, CustomerType type, String promoCode) {
+public class PromotionManager {
+    public double applyDiscount(double subtotal, ClientCategory type, String promoCode) {
         double discount = 0;
         // خصم vip
-        if (type == CustomerType.VIP) {
+        if (type == ClientCategory.VIP) {
             discount = subtotal * 0.20;
         }     
            // خصم اضافي 
